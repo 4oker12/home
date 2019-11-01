@@ -1,0 +1,399 @@
+body,html{
+    height: 100%;
+}
+
+/*CONTAINER-MENU-BLOCK STYLES*/
+.container-menu{
+    background: #1C202C;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+
+}
+.svg-logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 150px;
+    top: 28px;
+}
+ul.ul-menu-one{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+ul.ul-menu-two{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ul-menu-one li{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+.ul-menu-two li{
+    padding-left: 37px;
+    text-decoration: none;
+}
+
+
+
+
+/*dropdown-content-crypto-block*/
+i.fa.fa-btc{
+    font-size:25px;
+    background-color:orange;
+    border-radius:50%;
+    padding:5px 9px 5px 9px
+}
+i.fa.fa-krw{
+border-radius:50%;
+font-size:20px;
+color: white;
+}
+i.fa.fa-jpy{
+    border-radius:50%;
+    color: white;
+    font-size:20px;
+}
+.dropbtn-crypto {
+    background: #272C3B;
+    color: white;
+    padding-top:10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown-crypto {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background: #272C3B;
+}
+.dropdown-content-crypto {
+    right: -52px;
+    top: 75px;
+    border:none;
+    display: none;
+    position: absolute;
+    min-width: 442px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dropdown-content-crypto a {
+    background-color: #272C3B;
+    color: white;
+    opacity: 0.7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}
+
+
+
+
+
+
+/*DROPDOQN-LANGUAGE*/
+.dropbtn-language {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown-language {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-language {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-language a {
+  color: white;
+  padding: 12px 16px;
+  opacity: 0.6;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show{
+  display: block;
+}
+
+
+
+
+/*maininfo block*/
+
+.main-info{
+    width: 500px;
+    height: 220px;
+    position: absolute;
+    top: 170px;
+    left: 33%;
+}
+
+.main-info p{
+    color:white;
+    text-align:center;
+    font-size:29px;
+    line-height:10px;
+    font-weight:bold;
+    font-family:'DM Sans';
+}
+.main-info h1{
+    text-transform:uppercase;
+    color:white;
+    font-size:40px;
+    text-align:center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-one-two{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position: absolute;
+    width: 947px;
+    height: 93px;
+    left: 246px;
+    top: 360px;
+}
+.check-information {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: white;
+    margin-left: 25px;
+}
+.exchange-details h1{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #879AB6;
+    opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 32px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.input-field-one{
+    position: relative;
+    width: 422px;
+    margin-top: 50px;
+}
+.input-field-two{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width: 45%;
+}
+.input-field-three{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.bind-course{
+    position: absolute;
+    left: 42%;
+    bottom: -130px;
+    color:white;
+    opacity:0.3;
+    letter-spacing:1px;
+}
+input[type=text]{
+    border-radius: 20px;
+    border: #7155FF;
+    background-color: #272C3B;
+    font-size: 16px;
+    border: 0;
+    color:#8FA7BD;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 12px;
+    box-shadow: 2px 1px 20px 0px #4a3a3a;
+    text-shadow: 17px -20px 4px black;
+}
+
+input[type="text"] {}
+
+input[type="text"] {}
+#myInput{
+border-radius: 10px;
+padding: 0;
+margin: auto;
+opacity: 0.7;
+font-size: 20px;
+color:white;
+font-weight: bold;
+padding-left: 10px;
+}
+#myInput::after{
+    content: "\f002";
+    font-size:20px;
+}
+
+.up-text-one{
+    position: absolute;
+    left: 30px;
+    color: white;
+    top: 22px;
+    opacity: 0.3;
+    font-size: 14px;
+}
+.up-text-two {
+    position: absolute;
+    color: white;
+    left: 30px;
+    top: 22px;
+    opacity: 0.3;
+    font-size: 12px;
+}
+.up-text-three {
+    position: absolute;
+    color: white;
+    left: 20px;
+    top: 14px;
+    opacity: 0.3;
+    font-size: 14px;
+}
+.hyphen-one{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    top: 75px;
+    left: 30px;
+    position: absolute;
+    width: 280px;
+}
+.hyphen-two{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    top: 75px;
+    position: absolute;
+    width: 220px;
+    left: 30px;
+}
+.hyphen-three{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    bottom: 20px;
+    position: absolute;
+    width: 220px;
+    left: 20px;
+    top: 65px;
+}
+
+
+.block-curruncies{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    right: 50px;
+    background-color: #272C3B;
+}
+
+
+
+.exchange{
+    background: linear-gradient(91.42deg, rgba(255, 76, 102, 0.7) 1.28%, rgba(218, 74, 190, 0.28) 101.16%);
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 250px;
+    width: 380px;
+    height:70px;
+    left: 30%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    box-shadow: -3px -1px 20px 2px rgba(189, 82, 168, 0.28);
+}
+i.fa.fa-exchange{
+    color: white;
+    opacity: 0.4;
+}
+
+.re-exchange{
+    background-color: #272C3B;
+    position: absolute;
+    top: 80px;
+    left: 49.6%;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
