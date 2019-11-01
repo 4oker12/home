@@ -1,0 +1,456 @@
+body,html{
+    height: 100%;
+}
+
+/*CONTAINER-MENU-BLOCK STYLES*/
+.container-menu{
+    background: #1C202C;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+
+}
+.svg-logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 150px;
+    top: 12px;
+
+}
+ul.ul-menu-one{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+ul.ul-menu-two{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ul-menu-one li{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+.ul-menu-two li{
+    padding-left: 37px;
+    margin-right: -7px;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown-languages-list {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-shadow-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+}
+.dropdown-shadow-content a {
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-shadow-content a:hover {
+    background-color: #ddd
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.progress-scroll{
+    position: absolute;
+    top: 90px;
+    left: 540px;
+    width: 360px;
+    height: 4px;
+    background-color: #272C3B;
+}
+.steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.step {
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #FF4C66;
+    background-color:#3D455C;
+    border-radius: 50%;
+    transition: background 1s;
+    margin-top: -2px;
+}
+
+.step-one, .step-two, .step-three {
+    text-align: left;
+    Font-Family: DM Sans;
+    width: 120px;
+    padding-top: 14px;
+    Font-Size: 13px;
+    Line-Height: 17px;
+    Align: Left;
+    Vertical-Align:Top;
+    color: #879AB6;
+    opacity: 0.7;
+}
+.step-one{
+    left: -50px;
+    top: 5px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.step-two{
+    left: 130px;
+    top: 5px;
+    position: absolute;
+}
+.step-three{
+    left: 310px;
+    top: 5px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+
+
+.input-field-one{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+}
+
+.exchange-details-frame-one-next{
+    width: 456px;
+    height: 311px;
+    position: absolute;
+    left: 246px;
+    right: 37.15%;
+    top: 32%;
+    bottom: 41%;
+    background: #272C3B;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.exchange-details-frame-two-next{
+   width: 456px;
+   height: 311px;
+   position: absolute;
+   left: 736px;
+   right: 37.15%;
+   top: 32%;
+   bottom: 41%;
+   background: #272C3B;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+}
+
+.step-left-one{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background: #1F2432;
+border-radius: 20px 20px 0px 0px;
+
+}
+.step-left-one p {
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+opacity: 0.7;
+padding-top:20px;
+padding-left:20px
+}
+.step-left-one span{
+position:absolute;
+top:30px;
+right:10px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+color: #7C98B2;
+opacity: 0.7;
+}
+
+.step-left-two{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    position: relative;
+}
+.step-left-two p{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+color: #7C98B2;
+opacity: 0.8;
+width: 50%;
+padding: 16px 10px 0px 24px;
+}
+.span-svg{
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+        
+.check-information {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "DM Sans";
+    line-height: 20px;
+    line-height: 50%;
+    color: white;
+}
+
+.text-info-q{
+    position: absolute;
+    width: 270px;
+    height: 20px;
+    left: 270px;
+    top: 188px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 20px;
+    color: white;
+}
+.text-info-q p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+.text-info-q h4{
+    opacity: 0.4;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+
+.first-line-transaction-info{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background: #1F2432;
+border-radius: 20px 20px 0px 0px;
+
+}
+.first-line-transaction-info p {
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+opacity: 0.7;
+padding-top:20px;
+padding-left:20px
+}
+.first-line-transaction-info span{
+    position:absolute;
+    top:30px;
+    right:10px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+color: #7C98B2;
+opacity: 0.7;
+}
+.second-line-transaction-info{
+    color:white;
+    position:relative;
+    display: flex;
+    height: 70px;
+}
+.second-line-transaction-info p{position:absolute;left:24px;top: 16px;top:5px;
+
+
+font-family: DM Sans;
+    font-style: normal;font-weight: normal;font-size: 12px;line-height: 16px;display: flex;align-items: flex-end;color: #8FA7BD;opacity: 0.7;}
+.second-line-transaction-info span{position:absolute;top: 36px;left: 24px;font-family: DM Sans;font-style: normal;
+font-size:20px;line-height: 31px;display: flex;align-items: flex-end;color: #FFFFFF;}
+.coppie-address{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 87%;
+    height: 48px;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(92.49deg, rgba(255, 76, 102, 0.7) 1.28%, rgba(218, 74, 190, 0.28) 101.16%);
+    position: absolute;
+    left: 7%;
+    bottom: -25px;
+}
+.third-line-transaction-info{
+    position:relative;
+    width:100%;
+    height: 130px;
+}
+
+.third-line-transaction-info p {
+    font-family: DM Sans;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    color: #7C98B2;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.third-line-transaction-info span {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+align-items: flex-end;
+    position: absolute;
+    left: 24px;
+    top: 32px;
+    color: white;
+    
+    
+}
+.qr{
+    text-align: left;
+    display: flex;
+    flex-direction:row;
+    width: 366px;
+    max-width:100%;
+    height: 180px;
+    margin-top: 160px;
+    background: #272C3B;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.qr-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-top: 18px;
+}
+
+.qr-info p {
+    color:white;
+    font-size: 22px;
+}
+
+.qr-info span{
+    color: #8F8F8F;
+    font-size:14px;
+    margin-top:-10px;
+}
+
+.svg-qr{
+    padding-top:20px;
+    padding-right:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

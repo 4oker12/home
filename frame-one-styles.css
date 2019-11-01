@@ -1,0 +1,388 @@
+body,html{
+    height: 100%;
+}
+
+/*CONTAINER-MENU-BLOCK STYLES*/
+.container-menu{
+    background: #1C202C;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+
+}
+.svg-logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 150px;
+    top: 12px;
+
+}
+ul.ul-menu-one{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+ul.ul-menu-two{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ul-menu-one li{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+.ul-menu-two li{
+    padding-left: 37px;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown-languages-list {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-shadow-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+}
+.dropdown-shadow-content a {
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-shadow-content a:hover {
+    background-color: #ddd
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROGRESS-SCROLL BLOCK STYLES*/
+.progress-scroll{
+    position: absolute;
+    top: 90px;
+    left: 540px;
+    width: 360px;
+    height: 4px;
+    background-color: #272C3B;
+}
+.steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.step {
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #FF4C66;
+    background-color:#3D455C;
+    border-radius: 50%;
+    transition: background 1s;
+}
+
+.step-one, .step-two, .step-three {
+    text-align: left;
+    Font-Family: DM Sans;
+    width: 120px;
+    padding-top: 14px;
+    Font-Size: 13px;
+    Line-Height: 17px;
+    Align: Left;
+    Vertical-Align:Top;
+    color: #879AB6;
+    opacity: 0.7;
+}
+.step-one{
+     left: -30px;
+     position: absolute;
+ }
+
+.step-two{
+    left: 145px;
+    position: absolute;
+    opacity: 0.3;
+}
+.step-three{
+    left: 310px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Exchange details block*/
+
+.exchange-details{
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    width:950px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+}
+
+.input-one-two{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.check-information {
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: white;
+margin-left: 25px;
+}
+.exchange-details h1{
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #879AB6;
+opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 32px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.input-field-one{
+    position: relative;
+    width: 422px;
+    margin-top: 50px;
+}
+.input-field-two{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    width: 45%;
+}
+.input-field-three{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+input[type=text]{
+    border-radius: 20px;
+    border: #7155FF;
+    background-color: #272C3B;
+    font-size: 16px;
+    border: 0;
+    color:#8FA7BD;
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+span.terms{
+    color: white;
+    margin-left: -450px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.up-text-one{
+    position: absolute;
+    left: 20px;
+    color: white;
+    top:8px;
+    opacity: 0.3;
+    font-size: 14px;
+}
+.up-text-two {
+    position: absolute;
+    color: white;
+    left: 20px;
+    top:8px;
+    opacity: 0.3;
+    font-size: 12px;
+}
+.up-text-three {
+    position: absolute;
+    color: white;
+    left: 20px;
+    top: 14px;
+    opacity: 0.3;
+    font-size: 14px;
+}
+.hyphen-one{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    width: 220px;
+}
+.hyphen-two{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    bottom: 20px;
+    position: absolute;
+    width: 220px;
+    left: 20px;
+}
+.hyphen-three{
+    border-bottom: 1px solid grey;
+    opacity: 0.4;
+    bottom: 20px;
+    position: absolute;
+    width: 220px;
+    left: 20px;
+    top: 65px;
+}
+
+
+.block-curruncies{
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    background-color: #272C3B;
+}
+
+.dropdown-content-crypto{
+    display: none;
+}
+
+
+.checkbox-input{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 100%;
+}
+.checkbox-input input[type=checkbox]{margin-left: 20px;margin-top: 10px;}
+.terms{
+}
+
+
+.btn-submit{
+    width: 182px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(91.42deg, rgba(255, 76, 102, 0.7) 1.28%, rgba(218, 74, 190, 0.28) 101.16%);
+    border-radius: 20px;
+}
+.btn-submit span{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.submit{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

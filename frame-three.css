@@ -1,0 +1,419 @@
+body,html{
+    height: 100%;
+}
+
+.container-menu{
+    background: #1C202C;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+
+}
+.svg-logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 150px;
+    top: 28px;
+}
+ul.ul-menu-one{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+ul.ul-menu-two{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ul-menu-one li{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+.ul-menu-two li{
+    padding-left: 37px;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown-languages-list {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-shadow-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+}
+.dropdown-shadow-content a {
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-shadow-content a:hover {
+    background-color: #ddd
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+
+
+
+
+
+/*PROGRESS-SCROLL BLOCK STYLES*/
+.progress-scroll{
+    position: absolute;
+    top: 90px;
+    left: 540px;
+    width: 360px;
+    height: 4px;
+    background: linear-gradient(90deg, #FF4C66 0%, #683166 50%, rgba(18, 247, 233, 0.7) 100%);
+    box-shadow: 0px 0px 6px rgba(255, 76, 102, 0.6);
+}
+.steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.step {
+    padding-bottom: 5px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    height: 5px;
+    background: #fff;
+    border: 1px solid #FF4C66;
+    background-color:#3D455C;
+    border-radius: 50%;
+    transition: background 1s;
+}
+
+.step-one, .step-two, .step-three {
+    text-align: left;
+    Font-Family: DM Sans;
+    width: 120px;
+    padding-top: 14px;
+    Font-Size: 13px;
+    Line-Height: 17px;
+    Align: Left;
+    Vertical-Align:Top;
+    color: #879AB6;
+    opacity: 0.7;
+}
+.step-one{
+    left: -30px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.step-two{
+    left: 145px;
+    position: absolute;
+    opacity: 0.3;
+}
+.step-three{
+    left: 310px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* Exchange-details-final BLOCK*/
+.waiting-duration{
+position: absolute;
+width: 380px;
+height:70px;
+left: 270px;
+top: 175px;
+}
+.waiting-duration p{font-family: DM Sans;font-style: normal;font-weight: bold;font-size: 36px;line-height: 47px;color: whitesmoke;margin: auto;}
+.waiting-duration span{font-family: DM Sans;font-style: normal;font-weight: normal;font-size: 18px;line-height: 23px;color: #879AB6;opacity: 0.8;bottom: -40px;}
+
+.exchange-details-three{
+    width: 456px;
+    height: 240px;
+    position: absolute;
+    left: 248px;
+    right: 37.15%;
+    top: 32%;
+    bottom: 41%;
+    background: #272C3B;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.final-details-one{
+    position:relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1F2432;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 70px;
+}
+
+.final-details-one p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position:absolute;
+    left:20px;
+}
+
+.final-details-one span{
+        position: absolute;
+    top: 30px;
+    right: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #7C98B2;
+    opacity: 0.7;
+}
+
+.final-details-two{
+    color: white;
+    position: relative;
+    display: flex;
+    height: 70px;
+}
+.final-details-two p{
+    position: absolute;
+    left: 24px;
+    top: 16px;
+    top: 5px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #8FA7BD;
+    opacity: 0.7;
+}
+.final-details-two span{
+        position: absolute;
+        top: 36px;
+        left: 24px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 31px;
+        display: flex;
+        align-items: flex-end;
+        color: #FFFFFF;
+}
+
+.final-details-three{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+.final-details-three p{
+    font-family: DM Sans;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    color: #7C98B2;
+    opacity: 0.7;
+    font-size: 12px;
+}
+.final-details-three span{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        left: 24px;
+        top: 50px;
+        color: white;
+        letter-spacing: 1.5px;
+}
+
+
+
+
+
+.exchange-details-three-final{
+    width: 456px;
+    height: 240px;
+    position: absolute;
+    right:248px;
+    top: 32%;
+    bottom: 41%;
+    background: #272C3B;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.final-details-one-final{
+   position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1F2432;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 70px;
+}
+.final-details-one-final p{
+    position:absolute;
+    left:20px;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+opacity: 0.7;
+
+}
+
+.final-details-two-final {
+    color: white;
+    position: relative;
+    display: flex;
+    height: 70px;
+}
+.final-details-two-final p {
+    position: absolute;
+    left: 24px;
+    top: 16px;
+    top: 5px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #8FA7BD;
+    opacity: 0.7;
+}
+
+.final-details-two-final span{
+    position: absolute;
+    width: 70%;
+    border: 1px solid white;
+    bottom: 1px;
+    left: 20px;
+    opacity: 0.1;
+}
+input[type=email]{background-color: #272C3B;border: 0;color: white;opacity: 0.5;width: 100%;font-size: 16px;padding-top: 30px;padding-left: 25px;}
+
+.final-details-three-final {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    display:flex;
+    flex-direction:row;
+}
+
+.final-details-three-final .confirm{
+width: 168px;
+height: 48px;
+left: 760px;
+top: 450px;
+background: linear-gradient(91.31deg, rgba(255, 76, 102, 0.7) 1.28%, rgba(218, 74, 190, 0.28) 101.16%);
+border-radius: 20px;
+border: none;
+margin: 32px 0px 0px 24px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color:white;
+}
+.final-details-three-final span{
+margin-top: 32px;
+margin-left: 24px;
+width: 216px;
+height: 40px;
+left: 952px;
+top: 454px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+color: #7C98B2;
+opacity: 0.8;
+}
