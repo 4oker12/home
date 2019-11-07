@@ -175,6 +175,7 @@ ul.ul-menu-two{
 
 .exchange-details-frame-one-next{
     width: 456px;
+    display: grid;
     height: 311px;
     position: absolute;
     left: 246px;

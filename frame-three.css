@@ -211,6 +211,8 @@ body,html{
 
     .exchange-details-three {
         width: 456px;
+        display: flex;
+        flex-direction: column;
         height: 240px;
         position: absolute;
         left: 248px;

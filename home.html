@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="home.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="home.css">
 </head>
-<body>
+<body class="bg-dark">
 
 <div class="container-menu">
     <div class="svg-logo">
-
         <svg class="logo" width="81" height="48" viewBox="0 0 81 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.3" filter="url(#filter0_d)">
                 <path d="M43 26.9032C43 37.4857 32.1066 42 22.8182 42C13.5298 42 6 33.4212 6 22.8387C6 12.2562 8.72456 6 18.013 6C27.3014 6 43 16.3207 43 26.9032Z" fill="url(#paint0_linear)"/>
@@ -84,10 +83,6 @@
                 </radialGradient>
             </defs>
         </svg>
-
-
-
-
     </div>
 
     <ul class="ul-menu-one">
@@ -129,9 +124,7 @@
 
 
 
-<div class="container-fluid">
-    <div class="row row-fluid">
-        <div class="col-xl-6">
+<div class="container-section">
             <div class="main-info">
                 <p>Afex changes you earn,</p>
                 <h1>Hight quality exchange </h1>
@@ -216,73 +209,67 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="col-xl-6">
             <div class="input-one-two">
-                <div class="input-field-one">
-                    <span class="up-text-one">You send</span>
-                    <span class="hyphen-one"></span>
-                    <input type="text" value="1">
+        <div class="input-field-one">
+            <span class="up-text-one">You send</span>
+            <span class="hyphen-one"></span>
+            <input type="text" value="1">
 
 
 
 
-                    <div class="dropdown-crypto">
-                        <button onclick="myCrypto()" class="dropbtn-crypto">
-                            <i class="fa fa-btc" aria-hidden="true"></i>
-                            <i class="fa fa-caret-down" aria-hidden="true"></i>
-
-                        </button>
-                        <div id="myDropdown-crypto" class="dropdown-content-crypto">
-
-                            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                            <a href="#home">
-                                <i class="fa fa-krw" aria-hidden="true"></i>
-                                KRW Kirwi
-                            </a>
-                            <a href="#about">
-                                <i class="fa fa-jpy" aria-hidden="true"></i>
-                                JPY Japanese
-                            </a>
-                            <a href="#contact">
-                                <i class="fa fa-eur" aria-hidden="true">
-                                    EUR Euro
-                                </i>
-                            </a>
-                            <a href="#contact">
-                                <i class="fa fa-viacoin" aria-hidden="true">
-                                    GBP
-                                </i>
-
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-                <span class="curse"> 1 BTC = 59430863.523</span>
-                <button class="re-exchange">
-
-                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.5 1C4.5 0.723858 4.27614 0.5 4 0.5C3.72386 0.5 3.5 0.723858 3.5 1L4.5 1ZM3.64645 17.3536C3.84171 17.5488 4.15829 17.5488 4.35355 17.3536L7.53553 14.1716C7.7308 13.9763 7.7308 13.6597 7.53553 13.4645C7.34027 13.2692 7.02369 13.2692 6.82843 13.4645L4 16.2929L1.17157 13.4645C0.97631 13.2692 0.659728 13.2692 0.464466 13.4645C0.269203 13.6597 0.269203 13.9763 0.464466 14.1716L3.64645 17.3536ZM3.5 1L3.5 17L4.5 17L4.5 1L3.5 1Z" fill="#7C98B2"/>
-                        <path d="M16.4999 17C16.4999 17.2761 16.2761 17.5 15.9999 17.5C15.7238 17.5 15.4999 17.2761 15.4999 17L16.4999 17ZM15.6464 0.646446C15.8416 0.451185 16.1582 0.451185 16.3535 0.646446L19.5355 3.82843C19.7307 4.02369 19.7307 4.34027 19.5355 4.53553C19.3402 4.7308 19.0236 4.7308 18.8284 4.53553L15.9999 1.70711L13.1715 4.53553C12.9762 4.7308 12.6597 4.7308 12.4644 4.53553C12.2691 4.34027 12.2691 4.02369 12.4644 3.82843L15.6464 0.646446ZM15.4999 17L15.4999 1L16.4999 1L16.4999 17L15.4999 17Z" fill="#7C98B2"/>
-                    </svg>
+            <div class="dropdown-crypto">
+                <button onclick="myCrypto()" class="dropbtn-crypto">
+                    <i class="fa fa-btc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
 
                 </button>
-                <div class="input-field-two">
-                    <span class="up-text-two">You get</span>
+                <div id="myDropdown-crypto" class="dropdown-content-crypto">
 
-                    <input type="text">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="#home">
+                        <i class="fa fa-krw" aria-hidden="true"></i>
+                        KRW Kirwi
+                    </a>
+                    <a href="#about">
+                        <i class="fa fa-jpy" aria-hidden="true"></i>
+                        JPY Japanese
+                    </a>
+                    <a href="#contact">
+                        <i class="fa fa-eur" aria-hidden="true">
+                            EUR Euro
+                        </i>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa fa-viacoin" aria-hidden="true">
+                            GBP
+                        </i>
 
-                    <span class="bind-course"> 1 BTC = 078.6463865</span>
-                    <button class="exchange">Exchange</button>
+                    </a>
                 </div>
-
             </div>
+
+        </div>
+
+
+
+
+        <span class="curse"> 1 BTC = 59430863.523</span>
+        <button class="re-exchange">
+
+            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.5 1C4.5 0.723858 4.27614 0.5 4 0.5C3.72386 0.5 3.5 0.723858 3.5 1L4.5 1ZM3.64645 17.3536C3.84171 17.5488 4.15829 17.5488 4.35355 17.3536L7.53553 14.1716C7.7308 13.9763 7.7308 13.6597 7.53553 13.4645C7.34027 13.2692 7.02369 13.2692 6.82843 13.4645L4 16.2929L1.17157 13.4645C0.97631 13.2692 0.659728 13.2692 0.464466 13.4645C0.269203 13.6597 0.269203 13.9763 0.464466 14.1716L3.64645 17.3536ZM3.5 1L3.5 17L4.5 17L4.5 1L3.5 1Z" fill="#7C98B2"/>
+                <path d="M16.4999 17C16.4999 17.2761 16.2761 17.5 15.9999 17.5C15.7238 17.5 15.4999 17.2761 15.4999 17L16.4999 17ZM15.6464 0.646446C15.8416 0.451185 16.1582 0.451185 16.3535 0.646446L19.5355 3.82843C19.7307 4.02369 19.7307 4.34027 19.5355 4.53553C19.3402 4.7308 19.0236 4.7308 18.8284 4.53553L15.9999 1.70711L13.1715 4.53553C12.9762 4.7308 12.6597 4.7308 12.4644 4.53553C12.2691 4.34027 12.2691 4.02369 12.4644 3.82843L15.6464 0.646446ZM15.4999 17L15.4999 1L16.4999 1L16.4999 17L15.4999 17Z" fill="#7C98B2"/>
+            </svg>
+
+        </button>
+        <div class="input-field-two">
+            <span class="up-text-two">You get</span>
+
+            <input type="text">
+
+            <span class="bind-course"> 1 BTC = 078.6463865</span>
+            <button class="exchange">Exchange</button>
         </div>
 
     </div>
@@ -292,6 +279,27 @@
 
 
 
+
+
+<div class="container-fluid-back">
+        <p class="four-steps"> Just four easy steps</p>
+        <div class="progress-scroll">
+            <div class="steps">
+                <div class="step" id="1">
+                    <h1 class="step-one"> 01<br> Choose currencies for the exchange</h1>
+                </div>
+                <div class="step" id="2">
+                    <h1 class="step-two"> 02<br> Check the current conversation rate</h1>
+                </div>
+                <div class="step" id="3">
+                    <h1 class="step-three">03<br>  Enter the recipients address </h1>
+                </div>
+                <div class="step" id="4">
+                    <h1 class="step-four">04<br>  Send your currency to the address provided  </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <script src="simple-js.js"></script>
